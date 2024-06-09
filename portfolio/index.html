@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <title>index2</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="css/nobootstrap.css">
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="js/mixitup.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript Bootstrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom JS -->
+  <script src="js/custom.js"></script>
+
+</head>
+
+<body>
+  <div class="pagination">
+    <a href="#section-1">Inline page 1</a>
+    <a href="#section-2">Inline page 2</a>
+    <a href="#section-3">Inline page 3</a>
+    <a href="#section-4">Inline page 4</a>
+    <a href="#section-5">Inline page 5</a>
+  </div>
+
+  <div class="controls">
+    <button class="previous" onclick="window.scrollBy(-100, 0)">
+      <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+      </svg>
+    </button>
+    <button class="next" onclick="window.scrollBy(100, 0)">
+      <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+      </svg>
+    </button>
+  </div>
+
+  <section id="section-1">
+    <article class="card">
+      <picture>
+        <img src="img/portfolio/final.png" height="500" width="500">
+      </picture>
+      <h5>BelleAnge</h5>
+      <p>SpringBoot, React, mariaDBㆍㆍㆍ</p>
+      <a href="https://github.com/fullda/TeamProject/tree/main/final">github Link</a>
+    </article>
+
+    <article class="card">
+      <picture>
+        <img class="card-img" src="img/portfolio/mini2.png" alt="placeholder-hand-drawn-vector" height="500"
+          width="500">
+      </picture>
+      <h5>Post It</h5>
+      <p>Spring,oracle,mybatisㆍㆍㆍ</p>
+      <a href="https://github.com/fullda/TeamProject/tree/main/mini2">github Link</a>
+    </article>
+  </section>
+
+  <section id="section-2">
+    <article class="card">
+      <picture>
+        <img src="img/portfolio/mini1.png" height="500" width="500">
+      </picture>
+      <h5>코딩 블로그</h5>
+      <p>JSPModel2,Servlet,Oracleㆍㆍㆍ</p>
+      <a href="https://github.com/fullda/TeamProject/tree/main/mini1">github Link</a>
+    </article>
+
+    <article class="card">
+      <picture>
+        <img class="card-img" src="img/portfolio/haksa.png" alt="placeholder-hand-drawn-vector" height="500"
+          width="500">
+      </picture>
+      <h5>학사관리 시스템</h5>
+      <p>java,ojdbc6</p>
+      <a href="https://github.com/fullda/portfolio1/tree/main/Haksa2">github Link</a>
+    </article>
+  </section>
+
+  <section id="section-3">
+    <article class="card">
+      <picture>
+        <img src="img/portfolio/hyundai.PNG" height="500" width="500">
+      </picture>
+      <h5>현대 자동차 demo 페이지</h5>
+      <p>css,html,bootstrap,jquery</p>
+      <a href="https://fullda.github.io/portfolio1/hyundai/">Check it out</a>
+    </article>
+
+    <article class="card">
+      <picture>
+        <img src="img/portfolio/samsung.PNG" height="500" width="500">
+      </picture>
+      <h5>삼성 지속가능한 발전 demo 페이지</h5>
+      <p>html5,css,javascript</p>
+      <a href="https://www.transhumans.xyz">Check it out</a>
+    </article>
+  </section>
+
+  <section id="section-4">
+    <article class="card">
+      <picture>
+        <img src="img/portfolio/globalit.png" height="500" width="500">
+      </picture>
+      <h5>글로벌 아이티 인재 개발원</h5>
+      <p>css,html,bootstrap,jquery</p>
+      <a href="https://www.transhumans.xyz">Check it out</a>
+    </article>
+
+    <article class="card">
+      <picture>
+        <img src="img/placeholder_370_x_300.jpg" height="500" width="500">
+      </picture>
+      <h5>추가 예정입니다.</h5>
+      <p>감사드립니다.</p>
+      <a href="#">Check it out</a>
+    </article>
+  </section>
+
+  <!-- 포트폴리오 -->
+  <section id="section-5">
+    <div class="row">
+      <div id="namenav">
+        <div class="title-content">
+          <h6 class="section-title">Portfolio</h2>
+        </div>
+        <nav id="portfolio-navigation" class="navbar">
+          <!-- Section title -->
+          <ul class="nav navbar-nav">
+            <li><button class="filter mixitup-control-active" type="button" data-mixitup-control
+                data-filter="all">All</button></li>
+            <li><button class="filter" type="button" data-mixitup-control data-filter=".Demo">Demo</button>
+            </li>
+            <li><button class="filter" type="button" data-mixitup-control data-filter=".Toy_project">Toy
+                project</button></li>
+            <li><button class="filter" type="button" data-mixitup-control data-filter=".Team_projec">Team
+                project</button></li>
+          </ul>
+        </nav> <!-- /#portfolio-navigation -->
+      </div>
+    </div> <!-- /.row -->
+
+    <div class="row">
+
+      <div id="portfolio-grid" class="portfolio-grid">
+
+        <!-- demo -->
+        <figure class="grid-item mix all Team_projec">
+          <a href="https://github.com/fullda/TeamProject/tree/main/final">
+            <img src="img/portfolio/final.png" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Team_projec">
+          <a href="https://github.com/fullda/TeamProject/tree/main/mini2">
+            <img src="img/portfolio/mini2.png" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Team_projec">
+          <a href="https://github.com/fullda/TeamProject/tree/main/mini1">
+            <img src="img/portfolio/mini1.png" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Demo">
+          <a href="https://fullda.github.io/portfolio1/hyundai/">
+            <img src="img/portfolio/hyundaiPortfolio.PNG" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Demo">
+          <a href="https://fullda.github.io/portfolio1/samsung_sustainabledevelopment/">
+            <img src="img/portfolio/samsung.PNG" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Demo">
+          <a href="https://fullda.github.io/portfolio1/company/">
+            <img src="img/portfolio/globalit.png" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Toy_project">
+          <a href="https://github.com/fullda/portfolio1/tree/main/Haksa2">
+            <img src="img/portfolio/haksa.png" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="grid-item mix all Team_projec">
+          <a href="#">
+            <img src="img/placeholder_370_x_300.jpg" alt="Placeholder portfolio image" width="370" height="300">
+          </a>
+        </figure>
+
+        <figure class="gap"></figure>
+
+      </div> <!-- /.container -->
+    </div>
+  </section>
+</body>
+
+</html>
